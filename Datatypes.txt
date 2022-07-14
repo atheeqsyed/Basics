@@ -1,0 +1,87 @@
+
+PHP Syntax
+
+<?php (Code) ?>
+
+All PHP statements end with a semicolon ;
+
+file extension of .php – for example, index.php or home.php
+
+PHP code usually contains HTML code inside, 
+<?php
+	echo “ <h1> GOOD BYE WORLD, SEE YOU NEXT TIME </h1>”;
+	echo “<p> This is me leaving the website at this point in the day </p>”;
+?>
+
+Comments in PHP
+
+forward slash (/) or hash symbol (#) in PHP to denote a single line comment.
+
+symbol /* (the comment goes in-between) */ to include a multi-line comment.
+
+Variables in PHP
+
+Variables are used to store data, like string of text, numbers, etc.
+
+*	A variable is declared/executed with a dollar symbol $ then the variable name.
+*	Variable names are case sensitive. For example $Derek is very different from $DEREK.
+*	A variable name should not and cannot start with a number, but rather a letter (Aa – Zz) or an underscore (_).
+*	In PHP, a variable does not need to be declared before adding a value to it. PHP automatically converts the variable to the correct data type, depending on its value.
+*	After declaring a variable it can be reused throughout the code.
+*	The assignment operator (=) used to assign value to a variable.
+
+
+In PHP variable can be declared as: $var_name = value;
+
+
+Data Types in PHP
+
+1. String : A sequence of one or more characters that may consist of letters, numbers, or symbols.
+represented with "" or '' . Ex - "Atheeq"
+
+<?php
+$name = "Derek Emmmanel";
+var_dump($name);x
+?>
+
+var_dump keyword to execute my PHP code and identify what data type you are working with and how many values it contains.
+
+2. Integers : Intengers as a data type are used to hold numeric values.
+<?php 
+  $x = -6532;
+  var_dump($x);
+?>
+
+3. Array : An array is a single variable that can store multiple values. Those are usually related and of the same type.
+
+<?php 
+  $x = array(1, 2, 3);
+  var_dump($x);  	
+?>
+
+4. Objects : An object is a data type that not only allows storing data but also information on, how to process that data.
+Objects are explicitly declared and created from the new keyword.
+The data elements stored within an object are referred to as its properties and the information, or code which describing how to process the data is called the methods of the object.
+When the objects are created, they inherit all the properties and behaviours from the class, having different values for all the properties.
+
+<?php
+// Class definition
+class greeting{
+    // properties
+    public $str = "Hello World!";
+    
+    // methods
+    function show_greeting(){
+        return $this->str;
+    }
+}
+ 
+// Create object from class
+$message = new greeting;
+var_dump($message);
+?>
+
+5. Boolean : Booleans are often used in conditional testing. It can have only one of two values:  1 (true) or 0 (false)
+
+$x = true;
+$y 
