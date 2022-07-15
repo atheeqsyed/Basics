@@ -1,5 +1,5 @@
 
-PHP Syntax
+PHP Syntax::
 
 <?php (Code) ?>
 
