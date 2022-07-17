@@ -13,6 +13,8 @@ echo "<br>";
 //returns data type and value
 var_dump($intArray);
 
+
+//Reverse a string without using strrev lib funcation
 $name = 'ATEEQ';
 //echo "result from php funtion =>" . strrev($name) . "<BR>";
 //$j = 0;
