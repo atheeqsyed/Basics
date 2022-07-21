@@ -14,7 +14,7 @@ echo "<br>";
 var_dump($intArray);
 
 
-//Reverse a string without using strrev lib funcation
+//Reverse a string without using strrev lib function
 $name = 'ATHEEQ';
 //echo "result from php funtion =>" . strrev($name) . "<BR>";
 //$j = 0;
