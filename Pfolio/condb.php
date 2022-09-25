@@ -1,8 +1,7 @@
 <?php
 
 class database
-{
-
+{// credentials
     public $host = "localhost";
     public $user = "root";
     public $pass = "A@#345_abcd1";
