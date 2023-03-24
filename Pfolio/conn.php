@@ -1,6 +1,6 @@
 <?php
 include ("dbconn.php");
 $conn = OpenCon();
-echo "Connected Successfully";
+echo "Connection Established";
 CloseCon($conn);
 ?>
