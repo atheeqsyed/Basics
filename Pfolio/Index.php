@@ -65,7 +65,7 @@
             <h3>I'm Atheeq</h3>
             <span class="tag">PHP and Magento Developer</span>
 
-            <p>I am a Full-Stack developer based in Karnataka, India.
+            <p>I am a Full Stack developer based in Karnataka, India.
                 I am an Computer Science Engineering graduate from VTU.
                 I am very passionate about improving my coding skills & developing applications & websites.
                 I build WebApps and Websites.
