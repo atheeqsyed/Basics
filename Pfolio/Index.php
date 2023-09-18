@@ -9,7 +9,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
 
-    <title>Experience | Portfolio Atheeq</title>
+    <title>Experience | Portfolio Atheeq </title>
 </head>
 <body oncontextmenu="return false">
 
